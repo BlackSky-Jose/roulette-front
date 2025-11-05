@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://roulette-game-production.up.railway.app/api", // backend server
+  baseURL: import.meta.env.VITE_API_URL || "roulette-back-production-4a0a.up.railway.app", // backend server
 });
 
 api.interceptors.request.use((config) => {
